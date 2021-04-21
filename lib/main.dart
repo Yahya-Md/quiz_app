@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'QuizApp',
       theme: ThemeData(
         primarySwatch: Colors.yellow,
-        accentColor: Colors.lightBlue,
+        textTheme: TextTheme(),
       ),
       home: HomePage(),
     );
